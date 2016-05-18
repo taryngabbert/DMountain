@@ -1,0 +1,59 @@
+header {
+  height: 30%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+  .text {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  padding: 1em;
+  text-align: justify;
+  line-height: 1.5em;
+  overflow: scroll;
+  }
+  a:link {
+    color: rgb(20, 101, 136);
+    text-decoration: none;
+  }
+
+  #beginpara {
+
+  }
+
+  #closing {
+  text-align: right;
+  font-weight: bold;
+  }
+
+.allthewikis {
+  height: 800px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}
+
+  section div {
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    display: inline-block;
+    padding: 1em;
+    width:170px;
+    height:170px;
+  }
+
+  section div img {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 80%;
+    max-width: 80%;
+  }
